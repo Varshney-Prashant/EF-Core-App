@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EfCoreApp.Models\EfCoreApp.EntityModels.csproj" />
+    <ProjectReference Include="..\EFCoreApp.Persistence\EFCoreApp.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
